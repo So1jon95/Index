@@ -1,0 +1,668 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* =============== header st */
+header{
+    background: url(../images/header\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 17px;
+
+}
+.navbar-nav .nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #191919;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+header nav .navbar .collapse .navbar-nav .active{
+    color: #007d2f;
+}
+.navbar-nav .nav-link{
+    text-align: end;
+
+}
+.navbar-light .navbar-toggler {
+    margin-bottom: 0;
+}
+
+
+header  h1{
+    font-size: 35px;
+    line-height: 45px;
+    color: #1d1d1d;
+    font-weight: 500;
+    margin-top: 74px;
+    margin-bottom: 30px;
+}
+header .qwerty{
+    color: #787878;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 53px;
+
+}
+header  button{
+    font-size: 12px;
+   text-transform: uppercase;
+    font-weight: 500;
+    color: #ffff;
+    border: none;
+    padding: 22px  57px;
+    background: #007d2f;
+    margin-bottom: 281px;
+
+}
+/* =============== main st */
+main  h2 {
+    margin-top: 96px;
+    margin-bottom: 45px;
+    text-align: center;
+    color: #191919;
+    font-size: 34px;
+    font-weight: 500;
+
+}
+main  .inps{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #787878;
+    text-align: center;
+    margin-bottom: 51px;
+}
+main  img{
+    display: block;
+    margin: auto;
+    margin-bottom: 42px;
+}
+/* ================= section st */
+section{
+    background: #f8f9f9;
+}
+section .h22{
+    margin-top: 164px;
+    margin-bottom: 39px;
+    color: #171717;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+}
+section .ui{
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    font-weight: 700;
+}
+section .uii{
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    font-weight: 700;
+    margin-top: 41px;
+}
+section .uiii{
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    font-weight: 700;
+    margin-top: 41px;
+}
+section img{
+    width: 100%;
+    height: 100%;
+}
+/* ===================== cent */
+.cent{
+    background: #007d2f;
+}
+.cent  .fa{
+    display: inline-block;
+    color: #ffff;
+    margin-top: 76px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 11px;
+
+}
+.cent  span{
+    color: #ffff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.cent  .cas{
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 80px;
+
+
+}
+.cent .mini{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bell .img_hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bell .ggg{
+    width: 100%;
+    height: 100%;
+}
+.bell .photo{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+.bell .photo .img_hover{
+    position: absolute;
+    transform: scale(0);
+    transition: .5s;
+    top: 160px;
+}
+.bell .photo:hover .img_hover{
+    transform: scale(1);
+}
+/* ============ gren st */
+.greenn{
+    background: #007d2f;
+}
+.greenn .lo{
+    margin: 46px 0 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    color: #ffff;
+    text-transform: uppercase;
+
+}
+/* =================== proper */
+.proper{
+    text-align: center;
+}
+.proper h3{
+    font-size: 43px;
+    font-weight: 500;
+    color: #191919;
+    margin-top: 97px;
+    margin-bottom: 29px;
+
+}
+.proper .lorem{
+    color: #787878;
+    font-size: 22px;
+    margin-bottom: 47px;
+}
+.proper .cont{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+
+  
+}
+.proper .bom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.proper .bom .fa{
+    position: absolute;
+    top: 47%;
+    font-size: 70px;
+    color: #007d2f;
+
+}
+/* ======================== ICONS   ST */
+.icons{
+    background: #f5f5f5;
+    padding-bottom: 101px;
+}
+.icons .iconic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.icons .iconic .fa{
+    margin-top: 109px;
+    font-size: 30px;
+    color: #656565;
+    margin-bottom: 0;
+}
+
+.icons .iconic span{
+    font-weight: 500;
+    line-height: 29px;
+    color: #191919;
+    margin-top: 28px;
+    margin-bottom: 19px;
+
+}
+.icons .iconic .be{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #787878;
+    margin-bottom:  0;
+    
+}
+/* =========================== SL    ST */
+.sl .carousel .carousel-indicators button{
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+.sl .container-fluid .carousel-inner .carousel-caption p{
+    margin-bottom: 44px;
+}
+.sl .container-fluid .carousel-inner .carousel-caption h3{
+    text-align: center;
+    margin-bottom: 102px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/* ===================== JAK ST  */
+.collection_brand{
+    padding: 5% 0;
+}
+.collection_brand .brands{
+    margin-top: 10%;
+}
+/* ====================== FOO ST */
+.foo {
+    background: #f5f5f5;
+    /* margin: 26px 0 100px; */
+}
+.foo .ned{
+    color: #1d1d1d;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 70px 0 33px;
+    text-align: center;
+}
+.foo .let{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+.foo .lets{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+
+.bottom{
+    background:#f5f5f5 ;
+}
+.bottom form input{
+    width: 100%;
+    height: 48px;
+    border: none;
+}
+.bottom form .gb{
+    padding-left: 15px;
+    color: #787878;
+}
+.bottom form .dg{
+    padding-left: 15px;
+    color: #787878;
+    padding-bottom: 110px;
+}
+.bottom .jkl input{
+    margin-top: 30px;
+}
+.bottom .lk input{
+    margin-top: 30px;
+    width: 100%;
+    height: 170px;
+}
+.bottom .send{
+    display: block;
+    margin: auto;
+    border: none;
+    margin-top: 30px;
+    background: #007d2f;
+    padding: 23px 25px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    
+}
+/* ==================== footer  st */
+footer{
+    background: #141414;
+    padding-top: 99px;
+    padding-bottom: 99px;
+
+}
+footer h3{
+    
+    margin-bottom: 28px;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 500;   
+}
+footer .gig{
+    color: #bcbcbc;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+
+}
+footer .gi{
+    color: #bcbcbc;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+ 
+    
+}
+footer .hello{
+    display:inline-block ;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #bcbcbc;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+footer .num{
+    display:inline-block ;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #bcbcbc;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+   
+}
+
+footer ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+   
+   
+}
+footer ul:nth-child(1){
+    padding: 10px;
+}
+footer ul li a{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #bcbcbc;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: #bcbcbc;
+}
+footer  .caru1{
+    display: block;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:focus{
+    outline: none;
+}
+
+/* +++++++++++  media */
+/* ============= xl */
+
+@media(max-width:1199px){
+    section img{
+        margin-top: 60px;
+    }
+    section .h22{
+        margin-top: 110px;
+
+    }
+    .proper .bom .arrow {
+        left: 545px;
+    }
+  
+}
+/* ============= lg */
+@media(max-width:992px){
+    header nav .menu li {
+        margin-left: 20px;
+    }
+    header button{
+        margin-bottom: 125px;
+       
+    }
+    main h2 {
+        margin-top: 65px;
+    }
+    .sl .container-fluid .carousel-inner .carousel-caption h3 {
+        margin-bottom: 50px;
+    }
+    .bottom .send {
+        margin-bottom: 70px;
+
+    }
+    footer .hello{
+        display: block;
+        text-align: center;
+    }
+    footer .num{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    footer .gi{
+        text-align: center;
+    }
+    footer h3{
+        text-align: center;
+        margin-bottom: 7px;
+        
+    }
+    footer .gig{
+        text-align: center;
+    }
+    
+    footer{
+        padding-top: 75px;
+        padding-bottom: 70px;
+    }
+}
+@media(max-width:768px){
+    .sl .container-fluid .carousel-inner .carousel-caption h3{
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+    .sl .container-fluid .carousel-inner .carousel-caption p{
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    header button{
+        margin-bottom: 28px;
+    }
+    header h1{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    } 
+    .greenn .lo{
+        font-size: 18px;
+    }
+    .proper h3 {
+        font-size: 25px;
+    }
+    .proper .lorem{
+        font-size: 13px;
+        margin-bottom: -25px;
+    }
+    section .h22{
+        text-align: center;
+        font-size: 25px;
+    }
+    main h2{
+        font-size: 32px;
+        margin-top: 80px;
+        margin-bottom: 35px;
+    }
+    footer .gi{
+        margin-bottom: 20px;
+    }
+    footer .gi{
+        text-align: center;
+    }
+    footer h3{
+        text-align: center;
+    }
+    footer .gig {
+        text-align: center;
+    }
+    footer{
+        padding-top: 55px;
+        padding-bottom: 40px;
+    }
+    header .qwerty {
+        margin-bottom: 25px;
+      
+        font-weight: 500;
+    }
+    main img {
+        width: 25%;
+    }
+    .cent .cas{
+        margin-bottom: 20px;
+    }
+  
+
+}
+@media(max-width:567px){
+    .bottom form input {
+        margin-top: 30px;
+    }
+    .jak img{
+        width: 100%;
+        
+    }
+    .proper h3{
+            margin-top: 35px;
+            margin-bottom: 13px;
+    }
+    .proper .cont {
+        margin-bottom: 60px;
+    }
+    header button{
+        margin-bottom: 40px;
+        padding: 18px 45px;
+    }
+    header h1{
+        font-size: 24px;
+
+    }
+    header h1{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    header .qwerty{
+        font-size: 12px;
+        margin-bottom: 30px;
+        color: #000;
+    }
+    main h2{
+        margin-bottom: 16px;
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    main .inps {
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+    main img{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    section .h22{
+        margin-top: 55px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .foo .ned{
+        margin: 50px 0 20px;
+        font-size: 23px;
+
+    }
+    .foo .let{
+        font-size: 14px;
+    }
+    .foo .lets{
+        font-size: 14px;
+    }
+    .sl .container-fluid .carousel-inner .carousel-caption h3{
+        margin-bottom: 2px;
+        font-size: 9px;
+    }
+    .sl .container-fluid .carousel-inner .carousel-caption p{
+        margin-bottom: 3px;
+        font-size: 9px;
+    }
+    .carousel-indicators{
+        margin-bottom: 0;
+    }
+    .carousel-caption {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+   
+    
+    
+}
+
